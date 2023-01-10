@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: arial, serif;
+  }
+  
+  body {
+    background-color: #88FF88;
+    color: #222222;
+    font-family: arial, serif;
+    transition: all 1s;
+  }
+  
+  #valto {
+    display: block;
+    position: fixed;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80px;
+    top: calc(50% - 30px);
+    left: calc(50% - 400px);
+  }
+  
+  #bemenet {
+    width: 400px;
+    color: #222222;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #222222;
+  }
+  
+  #ebbol {
+    width: 400px;
+    margin-top: 20px;
+    color: #222222;
+    background: none;
+    border: none;
+  }
+  
+  #ebbe {
+    width: 400px;
+    margin-top: 20px;
+    color: #222222;
+    background: none;
+    border: none;
+  }
+  
+  #eredmeny {
+    display: inline-block;
+  }
