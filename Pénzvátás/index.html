@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pénzváltás</title>
+    <title>Document</title>
 </head>
-<body>
-    <form>
-        <label for="forint">Forint: </label><br>
-        <input type="text" id="forint" name="forint"><br>
-        <input type="submit" value="bekuldes">
-      </form>
+
+<body id="torzs">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <div id="valto">
+        <input id="bemenet" onkeyup="valtsal();"></input>
+        <div id="eredmeny"></div><br>
+        <select id="ebbol" onchange="valtsal();">
+            <option value="dollar">Dollárból</option>
+            <option value="euro">Euróból</option>
+            <option value="font">Fontból</option>
+            <option value="forint">Forintból</option>
+        </select>
+        <select id="ebbe" onchange="valtsal();">
+            <option value="dollar">Dollárba</option>
+            <option value="euro">Euróba</option>
+            <option value="font">Fontba</option>
+            <option value="forint">Forintba</option>
+        </select>
+    </div>
 </body>
+
 </html>
